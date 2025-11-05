@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zain —  Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+     
+      <span class="name">Farhan</span>
+    </div>
+ 
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Hello — I'm Farhan</h1>
+        <p>Mid-level Data Scientis. I clean data, do analysis and do feature engineering.</p>
+        <p><a class="btn" href="#projects">See projects</a></p>
+      </div>
+      <div class="hero-image" ></div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I prefer exploratory data analysis. I enjoy writing clean code and automating tasks.</p>
+      <ul>
+        <li>EDA</li>
+        <li>Feature Engineering</li>
+        <li>Tools: Power BI, Anaconda / Visual Studio</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Excel Geocoder API</h3>
+          <p>Reads addresses from Excel, fetches coordinates, and creates an updated file.</p>
+        </article>
+
+        <article class="card">
+          <h3>Client Management System</h3>
+          <p>Role based Authentication and Authorization
+            Where employer and admin can post and assign jobs
+            .</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Fill the form or email: <a href="mailto:farhankh14725@gmail.com">farhankh14725@gmail.com</a></p>
+
+     
+      <form class="form" action="mailto:you@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input id="n" name="name" type="text" placeholder="Your name" required>
+
+        <label for="e">Email</label>
+        <input id="e" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="m">Message</label>
+        <textarea id="m" name="message" rows="4" placeholder="Short message" required></textarea>
+
+        <div class="form-row">
+          <button type="submit" class="btn">Send</button>
+          <button type="reset" class="btn ghost">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="yr">2025</span> Farhan Khan —  Portfolio</p>
+  </footer>
+
+  
+</body>
+</html>
